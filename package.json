@@ -1,6 +1,6 @@
 {
   "name": "@jimp/monorepo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -23,8 +23,7 @@
     "build:watch": "lerna run build:watch --parallel",
     "build:readme-toc": "npx doctoc ./README.md",
     "tsTest:custom": "dtslint packages/custom/types --expectOnly",
-    "tsTest:main": "dtslint packages/jimp/types --expectOnly",
-    "postinstall": "patch-package"
+    "tsTest:main": "dtslint packages/jimp/types --expectOnly"
   },
   "devDependencies": {
     "@auto-it/all-contributors": "^11.0.5",
