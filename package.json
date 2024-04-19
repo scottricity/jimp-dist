@@ -1,5 +1,5 @@
 {
-  "name": "@jimp/monorepo",
+  "name": "jimp-dist",
   "version": "0.1.0",
   "private": false,
   "workspaces": [
